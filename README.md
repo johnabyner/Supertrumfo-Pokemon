@@ -57,9 +57,8 @@ git clone [https://github.com/johnabyner/Supertrumfo-Pokemon.git](https://github
 
 Navegue até o diretório do projeto:
 
-```bash
 cd Supertrumfo-Pokemon
+
 Execute o jogo diretamente pelo terminal:
 
-```bash
 dotnet run
