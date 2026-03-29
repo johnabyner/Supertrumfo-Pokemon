@@ -1,0 +1,14 @@
+#Build
+bin/
+obj/
+
+#VS CODE
+.vscode/
+
+#Sistema
+*.user
+*.suo
+*.cache
+
+#Logs
+*.log
