@@ -1,2 +1,2 @@
 # Supertrumfo-Pokemon
-atividade de algoritmo, um jogo de supertrumfo do tema de pokemon
+Trabalho de algoritmo para o tecnico, um jogo de supertrumfo do tema de pokemon
