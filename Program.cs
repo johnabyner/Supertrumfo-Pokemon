@@ -54,7 +54,7 @@ public class Program
         };
 
         //Na terceira rodada vai finalizar o jogo
-        while(counter <= rounds)
+        while(counter < rounds)
         {
             startGame();
             counter++;
@@ -144,7 +144,5 @@ public class Program
             Console.WriteLine($"O jogo acabou... Usuario: {points[0]} X Maquina: {points[1]}");
             return;
         }
-
-        startGame();
     }
 }
