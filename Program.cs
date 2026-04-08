@@ -27,6 +27,26 @@ public class Program
         Pokemon luxray = new Pokemon("Luxray", PokemonType.Eletrico, 120, 79, 70, 95, 79);
         Pokemon garchomp = new Pokemon("Garchomp", PokemonType.Rocha, 130, 95, 102, 80, 85);
         Pokemon krookodile = new Pokemon("Krookodile", PokemonType.Rocha, 117, 80, 92, 65, 70);
+        Pokemon vaporeon = new Pokemon("Vaporeon", PokemonType.Agua, 65, 60, 65, 110, 95);
+        Pokemon gyarados = new Pokemon("Gyarados", PokemonType.Agua, 125, 79, 81, 60, 100);
+        Pokemon lapras = new Pokemon("Lapras", PokemonType.Agua, 85, 80, 60, 85, 95);
+        Pokemon starmie = new Pokemon("Starmie", PokemonType.Agua, 75, 85, 115, 100, 85);
+        Pokemon arcanine = new Pokemon("Arcanine", PokemonType.Fogo, 110, 80, 95, 100, 80);
+        Pokemon magmar = new Pokemon("Magmar", PokemonType.Fogo, 95, 57, 93, 100, 85);
+        Pokemon flareon = new Pokemon("Flareon", PokemonType.Fogo, 130, 60, 65, 95, 110);
+        Pokemon houndoom = new Pokemon("Houndoom", PokemonType.Fogo, 90, 50, 95, 110, 80);
+        Pokemon meganium = new Pokemon("Meganium", PokemonType.Grama, 82, 100, 80, 83, 100);
+        Pokemon bellossom = new Pokemon("Bellossom", PokemonType.Grama, 80, 95, 50, 90, 100);
+        Pokemon roserade = new Pokemon("Roserade", PokemonType.Grama, 70, 65, 90, 125, 105);
+        Pokemon tropius = new Pokemon("Tropius", PokemonType.Grama, 68, 83, 51, 72, 87);
+        Pokemon jolteon = new Pokemon("Jolteon", PokemonType.Eletrico, 65, 60, 130, 110, 95);
+        Pokemon electabuzz = new Pokemon("Electabuzz", PokemonType.Eletrico, 83, 57, 105, 95, 85);
+        Pokemon ampharos = new Pokemon("Ampharos", PokemonType.Eletrico, 75, 85, 55, 115, 90);
+        Pokemon manectric = new Pokemon("Manectric", PokemonType.Eletrico, 75, 60, 105, 105, 60);
+        Pokemon donphan = new Pokemon("Donphan", PokemonType.Rocha, 120, 120, 50, 60, 60);
+        Pokemon hippowdon = new Pokemon("Hippowdon", PokemonType.Rocha, 112, 118, 47, 68, 72);
+        Pokemon flygon = new Pokemon("Flygon", PokemonType.Rocha, 100, 80, 100, 80, 80);
+        Pokemon nidoking = new Pokemon("Nidoking", PokemonType.Rocha, 102, 77, 85, 85, 75);
         //Cartas
         Pokemon[] cards =
         {
@@ -40,7 +60,27 @@ public class Program
             magnemite,
             luxray,
             garchomp,
-            krookodile
+            krookodile,
+            vaporeon,
+            gyarados,
+            lapras,
+            starmie,
+            arcanine,
+            magmar,
+            flareon,
+            houndoom,
+            meganium,
+            bellossom,
+            roserade,
+            tropius,
+            jolteon,
+            electabuzz,
+            ampharos,
+            manectric,
+            donphan,
+            hippowdon,
+            flygon,
+            nidoking
         };
 
         //Na terceira rodada vai finalizar o jogo
