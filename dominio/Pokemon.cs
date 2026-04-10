@@ -1,8 +1,6 @@
-using System.Reflection.Metadata.Ecma335;
-
 namespace supertrumfo.dominio
 {
-    class Pokemon
+    public class Pokemon
     {
         public string pokemonName { get; set; }
         public PokemonType Type { get; set; }
@@ -29,7 +27,8 @@ namespace supertrumfo.dominio
             return  $"Nome: {pokemonName}\n" +
                     $"Tipo {Type}\n" +
                     $"Ataque {pokemonAttack}\n" +
-                    $"Velocidade {pokemonDefense}\n" +
+                    $"Defesa {pokemonDefense}\n" +
+                    $"Velocidade {pokemonSpeed}\n" +    
                     $"Ataque Especial {pokemonSpecialAttack}\n" +
                     $"Defesa Especial {pokemonSpecialDefense}\n";
         }

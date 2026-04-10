@@ -2,11 +2,10 @@ namespace supertrumfo.dominio
 {
     public enum StatsPokemon
     {
-        pokemonName,
-        pokemonAttack,
-        pokemonDefense,
-        pokemonSpeed,
-        pokemonSpecialAttack,
-        pokemonSpecialDefense
+        pokemonAttack = 1,
+        pokemonDefense = 2,
+        pokemonSpeed = 3,
+        pokemonSpecialAttack = 4,
+        pokemonSpecialDefense = 5
     }
 }
